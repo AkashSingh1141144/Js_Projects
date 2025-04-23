@@ -1,0 +1,62 @@
+body{
+	background-color: #212121;
+	color: #ffffff;
+	font-family: sans-serif;
+}
+
+.theme-title {
+	font-size: 5rem;
+	text-align: center;
+	margin-top: 13rem;
+}
+
+.orange {
+	color: orangered;
+}
+
+.container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#dark-theme {
+	background-color: orangered;
+	color: white;
+	padding: 20px;
+	border-radius: 10px;
+	font-size: larger;
+	font-weight: bold;
+}
+
+#dark-theme:hover {
+	background-color: white;
+	color: orangered;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+}
+
+#light-theme {
+	background-color: orangered;
+	color: white;
+	padding: 20px;
+	border-radius: 10px;
+	font-size: larger;
+	font-weight: bold;
+	margin-left: 15px;
+}
+
+#light-theme:hover {
+	background-color: white;
+	color: orangered;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+}
+
+.switch {
+	justify-content: center;
+	text-align: center;
+	margin-top: 2rem;
+	font-size: 2rem;
+	font-weight: bold;
+}
